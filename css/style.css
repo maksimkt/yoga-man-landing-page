@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #1B0A42;
+}
+
+/*Header*/
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+
+.header-container {
+  display: flex;
+  max-width: 1400px;
+  width: 100%;
+  margin-top: 35px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.navigation-items-register, .navigation-items {
+  list-style: none;
+}
+
+.navigtion-link {
+  text-decoration-line: none;
+  color: #1B0A42;
+  line-height: 24px;
+  margin-right: 38px;
+}
+
+.navigtion-link-sing-up {
+  margin-right: 0;
+}
+
+.logo-nav {
+ margin-top: 10px;
+ margin-right: 90px;
+}
+
+.header-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-items {
+  display: flex;
+}
+
+.navigation-items-register {
+  display: flex;
+  margin-top: 0;
+}
+
+.register-button {
+  font-size: 16px;
+  padding: 18px 31px;
+  border: 0;
+  background-color: white;
+  color: #1B0A42;
+}
+
+.register-button-sing-up {
+  color: #ffffff;
+  background: #FC569A;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/*Main*/
+.main-box {
+  display: flex;
+}
+
+.section-img {
+  width: 778px;
+  height: 526px;
+}
+
+.youga-img {
+  width: 100%;
+  height: auto;
+}
+
+.section-discription {
+  
+  
+}
+
+.discription-title {
+  font-family: 'Ramaraja', serif;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 80px;
+  margin-bottom: 0;
+  letter-spacing: 0.02em;
+}
+
+.discription-parahraph {
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: 200px;
+  margin-top: 0;
+  letter-spacing: 0.02em;
+  color: #9A9A9A;
+}
+
+.button-info {
+  padding: 18px 31px;
+  border: 0;
+  background: #FC569A;
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 200px;
+}
